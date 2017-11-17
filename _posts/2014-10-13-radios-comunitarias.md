@@ -8,6 +8,8 @@ Vía: Asociación Mundial de Medios Comunitarios (AMARC)
 - #LeyTelecom restringe la difusión de las lenguas indígenas.
 - Vaga e inadecuada la definición de producción nacional independiente.
 
+![]({{ site.baseurl }}/assets/posts/radios-comunitarias.jpg)
+
 México, D.F., a 13 de octubre de 2014.- Mediante 10 demandas de amparo interpuestas ante los Juzgados Primero y Segundo Administrativo Especializado en Telecomunicaciones, Radiodifusión y Competencia, distintas radios comunitarias e indígenas como “La Voladora Radio”, “Radio Xalli”, “Nandhía FM”, “Radio Tierra y Libertad” y “Neza Radio”, las comunidades indígenas de Tlacolula y de Teotitlán en Oaxaca, así como productores independientes de la Asociación Mexicana de Productores Independientes; pretenden se declaren inconstitucionales distintas disposiciones contenidas en la recientemente entrada en vigor Ley Federal de Telecomunicaciones y Radiodifusión.
 
 En conferencia de prensa, Gisela Martínez de la Asociación Mundial de Radios Comunitarias (AMARC), Mardonio Carballo, escritor y productor indígena, Aleida Calleja y Luis Fernando García, abogado; expresaron sus preocupaciones por las implicaciones de esta ley sobre la comunicación en México y las motivaciones para llevar esta lucha al ámbito judicial.

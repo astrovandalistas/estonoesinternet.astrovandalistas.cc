@@ -9,6 +9,6 @@ Via Forbes: Carlos Slim y Mark Zuckerberg planean dar internet a 60 millones má
 
 Via Aristegui noticias: En 2014 el Gobierno de México compró equipos de espionaje a empresas vinculadas con la NSA de EEUU, y pide a Facebook datos de 267 usuarios; más del doble que en 2013.
 
-Las redes no solamente se forman de dispositivos, sino también de las intenciones que se imprimen en estos. En un mundo donde nuestras redes afectivas y de comunicación son categorizadas y monetizadas, ¿podemos considerar públicos los espacios virtuales mantenidos por iniciativas privadas?
+**Las redes no solamente se forman de dispositivos, sino también de las intenciones que se imprimen en estos. En un mundo donde nuestras redes afectivas y de comunicación son categorizadas y monetizadas, ¿podemos considerar públicos los espacios virtuales mantenidos por iniciativas privadas?**
 
-¿Qué herramientas tecnológicas, conceptuales y sociales son necesarias para potenciar y legitimar nuevas formas de ocupación y apropiación de espacios físicos y virtuales?
+**¿Qué herramientas tecnológicas, conceptuales y sociales son necesarias para potenciar y legitimar nuevas formas de ocupación y apropiación de espacios físicos y virtuales?**

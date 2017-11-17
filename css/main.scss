@@ -362,6 +362,7 @@ body {
   margin-top: 24px;
 
   .post-list-item {
+    width: 100%;
     display: -webkit-flex;
     display: flex;
     flex-wrap: nowrap;
@@ -369,8 +370,6 @@ body {
     flex-direction: column;
     padding: $LIST-VERTICAL-SPACING 0;
     border-bottom: 2px solid #000;
-
-    width: 100%;
 
     transition: box-shadow $TRANSITION-PERIOD linear;
     box-shadow: none;
@@ -398,11 +397,7 @@ body {
     min-height: 200px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-
-    @include media-query(DESKTOP) {
-      background-size: contain;
-    }
+    background-size: contain;
   }
 
   .post-title-container {

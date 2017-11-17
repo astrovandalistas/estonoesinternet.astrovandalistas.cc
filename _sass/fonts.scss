@@ -120,11 +120,12 @@ a {
 .intro-bar-item-title {
   text-transform: uppercase;
   text-align: center;
-  font: bold $home-title-size $family-sans;
+  font: bold 2.3vw $family-sans;
 }
 
 .intro-bar-item-text {
-    font: normal 0.9rem $family-serif;
+  font: normal 0.9rem $family-serif;
+  text-align: justify;
 }
 
 #post {

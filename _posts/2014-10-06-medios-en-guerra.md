@@ -1,5 +1,6 @@
 ---
 title: Medios en Guerra
+cover: /assets/posts/telmex.jpg
 ---
 El mexicano promedio,  adquiere su precaria información a través de los medios electrónicos, principalmente de la televisión y ésta masa de noticias llega manipulada según los intereses de la empresa y en consecuencia del gobierno.
 

@@ -378,7 +378,6 @@ body {
     @include media-query(DESKTOP) {
       -webkit-flex-direction: row;
       flex-direction: row;
-      padding: 2*$LIST-VERTICAL-SPACING 0;
     }
   }
 

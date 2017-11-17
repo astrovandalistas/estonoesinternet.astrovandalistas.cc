@@ -117,6 +117,16 @@ a {
   }
 }
 
+.intro-bar-item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font: bold $home-title-size $family-sans;
+}
+
+.intro-bar-item-text {
+    font: normal 0.9rem $family-serif;
+}
+
 #post {
   .post-title {
     font: bold $post-title-size $family-serif;

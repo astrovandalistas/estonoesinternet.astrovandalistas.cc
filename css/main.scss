@@ -169,6 +169,62 @@ body {
   }
 }
 
+.intro-bar {
+  display: none;
+  @include media-query(DESKTOP) {
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .intro-bar-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 170px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .intro-bar-item-title {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    color: $BACKGROUND;
+    background: rgba(0,0,0,.5);
+    z-index: 1;
+  }
+
+  .intro-bar-item-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 40px 30px;
+    color: $TEXT-COLOR;
+    background: $BACKGROUND;
+    z-index: 4;
+    opacity: 0;
+    transition: opacity $TRANSITION-PERIOD linear;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
 #main-div {
   display: -webkit-flex;
   display: flex;

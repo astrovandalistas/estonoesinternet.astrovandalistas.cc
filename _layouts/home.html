@@ -8,6 +8,29 @@
   <body>
     {% include navbar.html %}
     <div id="main-div">
+      <div class="intro-bar">
+        <div class="intro-bar-item" style="background-image: url('{{ site.baseurl }}/assets/covers/antena.jpg');">
+          <div class="intro-bar-item-title">control de los medios en méxico</div>
+          <div class="intro-bar-item-text">
+            Revisión de la situación actual de las telecomunicaciones en México. ¿Cómo nos afectan las prácticas políticas y económicas de control de medios? ¿Cuáles son nuestros derechos como usuarios?
+          </div>
+        </div>
+
+        <div class="intro-bar-item" style="background-image: url('{{ site.baseurl }}/assets/covers/openwrt.jpg');">
+          <div class="intro-bar-item-title">usos alternativos de tecnología</div>
+          <div class="intro-bar-item-text">
+            Maneras en que podemos ser menos dependientes como usuarios de tecnología. Formas de reutilizar aparatos obsoletos o alterarlos para que cumplan otra función.
+          </div>
+        </div>
+
+        <div class="intro-bar-item" style="background-image: url('{{ site.baseurl }}/assets/covers/imin.jpg');">
+          <div class="intro-bar-item-title">esto no es internet</div>
+          <div class="intro-bar-item-text">
+            Este sitio existe en línea y también en servidores abiertos en varios puntos de la ciudad. Es posible acceder a ellos en hotspots con el nombre: ESTO NO ES INTERNET.
+          </div>
+        </div>
+      </div>
+
       <div id="post-list" class="post-list-container">
         {% for post in site.posts %}
           <a class="post-list-item {% cycle 'post-list-item-reverse', '' %}" href="{{ post.url }}">

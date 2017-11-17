@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: home
 title: '#estonoesinternet'
 permalink: /
 ---

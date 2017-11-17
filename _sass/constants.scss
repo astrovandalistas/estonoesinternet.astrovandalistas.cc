@@ -1,0 +1,28 @@
+$BACKGROUND: #fff;
+$TEXT-BACKGROUND: #fff;
+
+$TEXT-COLOR: #222;
+
+$LINK-COLOR: $TEXT-COLOR;
+$LINK-COLOR-VISITED: $LINK-COLOR;
+$LINK-COLOR-HOVER: lighten($LINK-COLOR, 50%);
+
+$MENU: #646464;
+$MENU-HOVER: lighten($MENU, 20%);
+
+$DESKTOP_WIDTH: 780px;
+$COLUMN-HORIZONTAL-BORDER: 10px;
+
+$MENU-HORIZONTAL-ITEM-SPACING: 50px;
+$MENU-VERTICAL-MARGIN: 40px;
+$PAGE-LATERAL-SPACE: 25px;
+$LIST-VERTICAL-SPACING: 24px;
+$RESPONSIVE-SPACING: 2vw;
+
+$TRANSITION-PERIOD: 0.15s;
+
+@mixin media-query($canvas) {
+  @if $canvas == DESKTOP {
+   @media only screen and (min-width: $DESKTOP_WIDTH) { @content; }
+  }
+}

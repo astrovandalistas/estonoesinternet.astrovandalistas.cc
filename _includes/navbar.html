@@ -1,0 +1,46 @@
+<div id="navbar-mobile" class="nav-container">
+  <span id="show-menu" class="menu-icon" onclick="showMenu()">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </span>
+</div>
+
+<div class="logo-container">
+  <div class="logo-text">
+    <div id="logo-sigla">esto</div>
+    <div class="logo-bandera"></div>
+    <div id="logo-titulo">no es internet</div>
+  </div>
+  <div class="logo-image"></div>
+</div>
+
+<div id="navbar" class="navbar-hide">
+  <div id="hide-menu" class="menu-icon" onclick="hideMenu()">✖</div>
+  <div class="menu-pages">
+    <a class="menu-item" href="{{site.baseurl}}/">Esto no es internet</a>
+    <a class="menu-item" href="{{site.baseurl}}/colabora/">Colabora</a>
+    <a class="menu-item" href="{{site.baseurl}}/acciones-territoriales/">Acciones territoriales</a>
+    <a class="menu-item" href="{{site.baseurl}}/replica-este-sitio/">Replica este sitio</a>
+  </div>
+  <hr class="menu-hr">
+  <div class="menu-social">
+    {% for social in site.social %}
+      {% unless social[1] == "" %}
+        <a class="menu-item" href="{{ social[1] }}" target="_blank">
+          <i class="fa fa-{{ social[0] }}" aria-hidden="true"></i>
+        </a>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  function showMenu() {
+    document.getElementById('navbar').classList.remove("navbar-hide");
+    document.getElementById('navbar').classList.add("navbar-show");
+  }
+
+  function hideMenu() {
+    document.getElementById('navbar').classList.remove("navbar-show");
+    document.getElementById('navbar').classList.add("navbar-hide");
+  }
+</script>

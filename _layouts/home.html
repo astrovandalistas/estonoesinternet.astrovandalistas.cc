@@ -31,20 +31,26 @@
         </div>
       </div>
 
-      <div id="post-list" class="post-list-container">
-        {% for post in site.posts %}
-          <a class="post-list-item {% cycle 'post-list-item-reverse', '' %}" href="{{ post.url }}">
-            <div class="post-image">
-              <img src="{{ site.baseurl }}{{ post.cover }}" alt="{{ post.title }}" title="{{ post.title }}">
+      <div class="post-container">
+        <div id="post-list" class="post-list-container">
+          {% for post in site.posts %}
+          <a class="post-list-item" href="{{ post.url }}">
+            <div class="post-image-container">
+              {% if post.cover %}
+              <div class="post-image" style="background-image: url('{{ site.baseurl }}{{ post.cover }}');"></div>
+              {% endif %}
             </div>
 
             <div class="post-title-container">
               {% assign daymonthyear = post.date | date: "%d %B %Y" %}
               <div class="post-title">{{ post.title }}</div>
               <div class="post-date">{{ daymonthyear }}</div>
+              <div class="post-preview">{{ post.content | strip_html | truncatewords:50 }}</div>
             </div>
           </a>
         {% endfor %}
+        </div>
+        {% include sidebar.html %}
       </div>
     </div>
   </body>

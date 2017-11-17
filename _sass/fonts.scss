@@ -164,7 +164,6 @@ a {
     letter-spacing: 0.04em;
 
     .post-title {
-      text-align: center;
       font-weight: 900;
     }
 
@@ -172,6 +171,11 @@ a {
       font-size: $detail-size;
       font-weight: 100;
       letter-spacing: normal;
+      text-transform: none;
+    }
+
+    .post-preview {
+      font: normal $text-size-desktop $family-serif;
       text-transform: none;
     }
   }

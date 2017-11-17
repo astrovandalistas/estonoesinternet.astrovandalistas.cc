@@ -8,18 +8,16 @@
   <body>
     {% include navbar.html %}
     <div id="main-div">
-      {% if page.cover %}
-        <div id="post-image-header">
-          <img src={{site.baseurl}}{{ page.cover }}>
+      <div class="post-container">
+        <div id="post">
+          <div class="post-title">{{ page.title }}</div>
+          <div class="post-date">{{ page.date | date: "%d %B %Y" }}</div>
+          <content>
+            {{ content }}
+            {% include swipebox.html %}
+          </content>
         </div>
-      {% endif %}
-      <div id="post">
-        <div class="post-title">{{ page.title }}</div>
-        <!-- <div class="post-date">{{ page.date | date: "%d %B %Y" }}</div> -->
-        <content>
-          {{ content }}
-          {% include swipebox.html %}
-        </content>
+        {% include sidebar.html %}
       </div>
     </div>
   </body>

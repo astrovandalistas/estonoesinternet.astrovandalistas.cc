@@ -1,5 +1,14 @@
+{% assign random = site.time | date: "%s" | plus: page.title.size %}
+
 <div class="sidebar">
   <h3 class="sidebar-title"></h3>
-  {% for post in site.posts %}
+  {% for n in (0...4) %}
+    {% assign i = random | plus: n | modulo: site.posts.size %}
+    {% assign post = site.posts[i] %}
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <div class="sidebar-image" style="background-image: url('{{ site.baseurl }}{{ post.cover }}')">
+      </div>
+      <h3 class="sidebar-post-title">{{ post.title }}</h3>
+    </a>
   {% endfor %}
 </div>

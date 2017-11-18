@@ -157,7 +157,7 @@ a {
 
 #post-list {
   .post-title-container {
-    font: normal $home-title-size $family-sans;
+    font: normal $home-title-size $family-serif;
     text-decoration: none;
     cursor: pointer;
     color: $TEXT-COLOR;
@@ -170,12 +170,13 @@ a {
     .post-date {
       font-size: $detail-size;
       font-weight: 100;
+      font-family: $family-sans;
       letter-spacing: normal;
       text-transform: none;
     }
 
     .post-preview {
-      font: normal $text-size-desktop $family-serif;
+      font: normal $text-size-desktop $family-sans;
       text-transform: none;
     }
   }
@@ -186,4 +187,9 @@ a {
   @include media-query(DESKTOP) {
     font-size: 3rem;
   }
+}
+
+.sidebar-post-title {
+  font-family: $family-serif;
+  text-transform: uppercase;
 }

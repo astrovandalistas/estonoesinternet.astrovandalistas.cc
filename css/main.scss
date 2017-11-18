@@ -304,9 +304,22 @@ body {
   display: none;
   @include media-query(DESKTOP) {
     display: block;
-    padding: 0 20px;
+    padding: 0 30px;
     width: 33%;
   }
+}
+
+.sidebar-image{
+  width: 100%;
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar-post-title{
+  text-align: center;
+  margin: 0 0 48px;
 }
 
 #post {
@@ -362,6 +375,9 @@ body {
 #post-list.post-list-container {
   display: block;
   width: 100%;
+  @include media-query(DESKTOP) {
+    width: 66%;
+  }
 
   .post-list-item {
     width: 100%;

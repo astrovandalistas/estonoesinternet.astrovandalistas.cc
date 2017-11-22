@@ -351,25 +351,6 @@ body {
     max-width: 100%;
     border-radius: 5px;
   }
-
-  .swipebox-gallery {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: center;
-    justify-content: center;
-
-    .swipebox {
-      width: 45%;
-      @include media-query(DESKTOP) {
-        width: 200px;
-      }
-      margin: $LIST-VERTICAL-SPACING 5px 0;
-    }
-  }
 }
 
 #post-list.post-list-container {
